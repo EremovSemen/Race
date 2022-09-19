@@ -12,5 +12,6 @@ public class Road extends Stage{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
     }
 }
