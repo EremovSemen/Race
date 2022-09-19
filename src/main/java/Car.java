@@ -16,10 +16,8 @@ public class Car  implements Runnable{
         this.speed = speed;
         CARS_COUNT++;
         this.name = "Участник #" + CARS_COUNT;
-
         this.prepareCdl = prepareCdl;
         this.finishCallBack = finishCallBack;
-
     }
 
     @Override
